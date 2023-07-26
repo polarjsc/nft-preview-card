@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;600&display=swap');
+*{
+    padding: 0px;
+    margin: auto;
+    font-family: 'Outfit', sans-serif;
+}
+body, html{
+    background-color: hsl(215.63,55.17%,11.37%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{   
+    box-shadow: 1px 1px 20px 10px rgb(12,23,41);
+    overflow-y: hidden;
+    background-color: hsl(214.29,50%,16.47%);
+    display: inline-block;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    width: 300px;
+    height: 510px;
+}
+main img{
+    margin: 20px;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    width: 260px;
+    height: 260px;
+}
+main h1{
+    width: 260px;
+    text-align: auto;
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+}
+main p{
+    color: rgb(82,104,133);
+    margin: 20px;
+}
+section{
+    width: 260px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+#eth{
+    margin: 0px;
+    color: rgb(1,251,249);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+#eth img{
+    margin: 10px;
+    display: flex;
+    width: 10px;
+    height: 16px;
+}
+
+#clock{
+    margin: 0px ;
+    display: flex;
+    color: rgb(99,124,157);
+    align-items: center;
+    justify-content: center;
+}
+#clock img{
+    margin: 10px;
+    display: flex;
+    width: 15px;
+    height:15px;
+}
+
+footer{
+    width: 260px;
+    height: 60px;
+    border-top: 1px solid rgb(38,56,80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    font-size: 15px;
+    margin: 20px;
+    padding: 0px;
+}
+#avatar{
+    margin: 0px;
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    outline: 1px solid white;
+}
+#white{
+    color: rgb(143,158,176);
+}
